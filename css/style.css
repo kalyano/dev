@@ -106,6 +106,7 @@ div , footer {
 	white-space:nowrap;
 	left:0;
 	top:0
+	font-weight: 2em;
 }
 
 .cd-words-wrapper b.is-visible{
@@ -123,7 +124,7 @@ div , footer {
 .cd-headline.type .cd-words-wrapper{
 	vertical-align:top;
 	overflow:hidden;
-	font-weight:400
+	/*font-weight:1000;*/
 }
 
 .cd-headline.type .cd-words-wrapper::after{
@@ -262,7 +263,6 @@ h1.name {
 	margin-right: 15px;
 	color: #4A90E2;
 	font-weight: 600;
-	width: 100px;
 }
 
 .list-card div {
@@ -275,6 +275,15 @@ h1.name {
 	color: #5B6A9A;
 	line-height: 26px;
 	margin-bottom: 8px;
+}
+
+.list-card .work-exp {
+	margin-bottom: 0px;
+}
+
+.list-card .exp-date {
+	font-size: inherit;
+    color: #4A90E2;
 }
 
 .list-card div span {
