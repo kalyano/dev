@@ -266,7 +266,9 @@ h1.name {
 }
 
 .list-card div {
+	/*
 	width: 70%;
+	*/
 }
 
 .list-card h3 {
@@ -304,15 +306,16 @@ h1.name {
 }
 
 .card {
+	/*
 	width: 47.9%;
 	height: 200px;
+	*/
 	background-color: #EEF0F7;
 	display: inline-block;
 	margin: 7px 5px;
 	vertical-align: top;
 	border-radius: 10px;
-	text-align: center;
-	padding-top: 50px
+	text-align: left;
 }
 
 .card-active , .card:hover{
@@ -321,6 +324,17 @@ h1.name {
 	background-color: #fff;
 	box-shadow: 0px 5px 50px -8px #ddd;
 	cursor: pointer;
+}
+
+.badge-info {
+    color: #4c91e1;
+    background-color: #d9e6f7;
+}
+
+.badge-info[href]:focus, .badge-info[href]:hover {
+    color: #d9e6f7;
+    text-decoration: none;
+    background-color: #4c91e1;
 }
 
 
